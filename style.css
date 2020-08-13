@@ -1,0 +1,67 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+
+#container{
+    border: 5px solid black;
+    display: grid;
+    margin: auto;
+
+}
+.box{
+    margin:auto;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.button-selected{
+    border: 5px solid lightslategray;
+    outline: none;
+}
+
+
+#red{
+    background-color: red;
+    color: white;
+}
+#orange{
+    background-color: orange;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#purple{
+    background-color: purple;
+    color: white;
+}
+#brown{
+    background-color: brown;
+    color: white;
+}
+#black{
+    background-color: black;
+    color: white;
+}
+#white{
+    background-color: white;
+}
+#transparent{
+    background: repeating-linear-gradient(45deg, lightgray, white 33.3%);
+}
